@@ -593,10 +593,12 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero img {
+    object-position: right center;
+  }
   .hero h2 {
     font-size: 32px;
   }
-
   .hero p {
     font-size: 20px;
   }
